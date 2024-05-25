@@ -1,0 +1,267 @@
+.mainContainer {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 100% !important; /* Set the height to 100% of the viewport height */
+
+  }
+  
+  .rowM {
+    height: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background-color: aquamarine;
+  }
+  
+  .col12 {
+    display: flex !important;
+    align-items: center !important;
+    text-align: center !important; /* Center text horizontally */
+  }
+
+  
+.overflow-hidden {
+    overflow: hidden !important;
+  }
+
+.h-100 {
+  height: 100vh !important;
+  /* display: flex !important;
+  justify-content: center !important;
+  align-items: center !important; */
+}
+
+.d-flex {
+  /* height: 100vh !important;
+  width: 100% !important; */
+  /* border: 2px solid !important; */
+  justify-content: space-between !important;
+  /* background-color: red; */
+  display: flex !important;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.borderR {
+  border: 1px solid;
+  border-color: red;
+}
+
+.col1Bg {
+  /* background-color: red; */
+  border: 1px solid !important;
+}
+
+.col2Bg {
+  /* background-color: black; */
+  border: 1px solid !important;
+}
+
+.card-prop {
+  background: radial-gradient(#92dd08, #cfdbbb);
+  justify-content: center !important;
+  align-items: center !important;
+  display: flex !important;
+  border-radius: 22px !important;
+  border: 52px !important;
+  width: 315px !important;
+  height: 274px !important;
+}
+
+.textForm {
+  margin-bottom: 10px !important;
+  margin-left: 20px !important;
+  height: 45px !important;
+  border-radius: 35px !important;
+}
+
+
+/* src/app/my-container/my-container.component.css */
+.mainContainer {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+
+
+.middeCol {
+  margin-top: 10px;
+  height: 20vh;
+  background-color: #e0e0e0;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.lastCol {
+  margin-top: 10px;
+  height: 50vh;
+  background-color: #e0e0e0;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+
+.firstCol {
+  margin-left: 24px;
+  margin-top: 10px;
+  height: 50%;
+  background-color: #e0e0e0;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.row2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 40px;
+  margin-top: 20px !important;
+}
+
+.row3 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* margin: 10px; */
+}
+
+.row1 {
+  margin-top: 20px !important;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* margin: 10px; */
+}
+
+
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.login-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  text-align: start !important;
+  display: flex !important;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid #3498db;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 2s linear infinite;
+  margin: auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+
+.design {
+  border: dashed !important;
+  border-style: solid !important;
+  justify-content: center !important;
+  align-items: center !important;
+  height: 15vh;
+ 
+
+}
+.designtwo {
+      display: flex !important;
+      border: dashed !important;
+      border-style: solid !important;
+      justify-content: center !important;
+      align-items: center !important;
+      height: 20vh;
+  
+}
+.design-3{
+    display: flex !important;
+    border: dashed !important;
+    border-style: solid !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 30vh;
+}
+.mainrow{
+  width: flex;
+  height: 30vh;
+  justify-content:center !important ;
+  display: flex !important;
+  align-items: center !important;
+}
+.subrow{
+  height: 20vh;
+  display: flex !important;
+
+}
+.image {
+  height: 10px;
+  width: 10px;
+}
+.two{
+  height: 60vh;
+  background-color: lightblue;
+  align-items: center !important;
+  justify-content: center !important;
+  display: flex;
+
+}
+.iconone{
+height: 60px;
+width: 60px;
+color: black;    
+}
